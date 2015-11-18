@@ -2,4 +2,8 @@
 
 echo 'Hello world';
 
-die('yo!');
+die('hello');
+
+var_dump('yo!');
+
+exit;
