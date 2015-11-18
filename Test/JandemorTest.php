@@ -1,6 +1,6 @@
 <?php
 
-namespace Kapusta\tests;
+namespace Kapusta\Tests;
 
 use Kapusta\Jandemor;
 

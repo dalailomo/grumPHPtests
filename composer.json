@@ -1,8 +1,8 @@
 {
     "autoload": {
         "psr-4": {
-            "Kapusta\\": "src/",
-            "Kapusta\\Tests\\": "tests/"
+            "Kapusta\\": "Lib/",
+            "Kapusta\\Tests\\": "Test/"
         }
     },
     "require": {
