@@ -1,0 +1,15 @@
+parameters:
+    git_dir: "."
+    bin_dir: "./vendor/bin"
+    ascii:
+        failed: grumphp-grumpy.txt
+        suceeded: grumphp-happy.txt
+    tasks:
+        behat: ~
+        blacklist: ~
+        git_commit_message: ~
+        phpcsfixer: ~
+        phpcs:
+            standard: "PSR4"
+        phpspec: ~
+        phpunit: ~
