@@ -19,4 +19,4 @@ parameters:
             show_warnings: true
             tab_width: 4
         phpunit:
-            config_file: "./Test/phpunit.xml"
+            config_file: "./Test/Unit/phpunit.xml"
