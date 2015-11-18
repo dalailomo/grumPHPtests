@@ -10,6 +10,7 @@ parameters:
                 - "die("
                 - "var_dump("
                 - "exit;"
+                - "isset("
         git_commit_message:
             matchers:
                 - "FOO-*"
