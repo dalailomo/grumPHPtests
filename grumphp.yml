@@ -10,7 +10,10 @@ parameters:
                 - "die("
                 - "var_dump("
                 - "exit;"
-        git_commit_message: ~
+        git_commit_message:
+            matchers:
+                - "FOO-*"
+                - "noFOO-*"
         phpcsfixer: ~
         phpcs:
             standard: "PSR2"
