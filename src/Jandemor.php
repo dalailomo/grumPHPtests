@@ -10,4 +10,9 @@ class Jandemor
     {
         $this->krander = $krander;
     }
+
+    public function getKrander()
+    {
+        return $this->krander;
+    }
 }

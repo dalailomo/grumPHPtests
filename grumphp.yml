@@ -16,3 +16,4 @@ parameters:
             standard: "PSR2"
             show_warnings: true
             tab_width: 4
+        phpunit: ~

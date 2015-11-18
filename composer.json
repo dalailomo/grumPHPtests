@@ -1,4 +1,10 @@
 {
+    "autoload": {
+        "psr-4": {
+            "Kapusta\\": "src/",
+            "Kapusta\\Tests\\": "tests/"
+        }
+    },
     "require": {
         "phpro/grumphp": "^0.5.2",
         "behat/behat": "^3.0",
