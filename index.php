@@ -8,4 +8,4 @@ $jandemor = new Jandemor();
 
 echo (isset($jandemor)) ? 'jandemor!' : 'nou :(';
 
-exit;
+var_dump('nouuu');
