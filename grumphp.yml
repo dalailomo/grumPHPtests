@@ -3,7 +3,7 @@ parameters:
     bin_dir: "./vendor/bin"
     ascii:
         failed: grumphp-grumpy.txt
-        suceeded: grumphp-happy.txt
+        succeeded: grumphp-happy.txt
     tasks:
         blacklist:
             keywords:
