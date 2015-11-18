@@ -26,5 +26,8 @@ class JandemorTest extends \PHPUnit_Framework_TestCase
     {
         $this->sut->setKrander('Hello world!');
         $this->assertSame('Hello world!', $this->sut->getKrander());
+
+        $this->sut->setKrander();
+        $this->assertSame('defaultKrander', $this->sut->getKrander());
     }
 }
