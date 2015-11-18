@@ -12,8 +12,7 @@ parameters:
                 - "exit;"
         git_commit_message:
             matchers:
-                - "FOO-*"
-                - "noFOO-*"
+                - "/(FOO-.*)|(noFOO-.*)/"
         phpcsfixer: ~
         phpcs:
             standard: "PSR2"
