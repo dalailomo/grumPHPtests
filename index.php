@@ -11,3 +11,5 @@ echo (isset($jandemor)) ? 'jandemor!' : 'nou :(';
 echo 'ay mamita!';
 
 echo (isset($jandemoris)) ? 'jandemor!' : 'nou :(';
+
+die();
