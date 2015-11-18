@@ -4,15 +4,14 @@ namespace Kapusta;
 
 class Jandemor
 {
-    protected $krander;
+    protected $krander = 'Hello Default!';
 
-    public function setKrander($krander = 'defaultKrander')
+    public function krander($krander = null)
     {
-        $this->krander = $krander;
-    }
+        if (isset($krander)) {
+            $this->krander = $krander;
+        }
 
-    public function getKrander()
-    {
         return $this->krander;
     }
 }

@@ -18,16 +18,23 @@ class JandemorTest extends \PHPUnit_Framework_TestCase
         $this->sut = new Jandemor();
     }
 
+    public function providerKrander()
+    {
+        return array(
+            array('Hello World!', 'Hello World!'),
+            array('', ''),
+            array(null, 'Hello Default!'),
+        );
+    }
+
     /**
      * @test
-     * @covers Jandemor::setKrander
+     * @covers Jandemor::krander
+     * @dataProvider providerKrander
      */
-    public function testGetSetKrander()
+    public function testKrander($insert, $expected)
     {
-        $this->sut->setKrander('Hello world!');
-        $this->assertSame('Hello world!', $this->sut->getKrander());
-
-        $this->sut->setKrander();
-        $this->assertSame('defaultKrander', $this->sut->getKrander());
+        $this->sut->krander($insert);
+        $this->assertSame($expected, $this->sut->krander());
     }
 }
