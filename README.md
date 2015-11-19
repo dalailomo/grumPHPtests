@@ -74,6 +74,7 @@ These are pretty straighfoward, just to tell where the `.git/` and `vendor/` fol
         failed: grumphp-grumpy.txt
         succeeded: grumphp-happy.txt
 ```
+These are used to show our funky Yoda ascii portrait.
 
 ### Parameter `tasks`
 
