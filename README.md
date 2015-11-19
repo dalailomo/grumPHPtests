@@ -395,3 +395,36 @@ Tests: 3, Assertions: 3, Failures: 1.
 
 ### Task `behat`
 @TODO
+
+## When everything is OK and beautiful
+
+When you try to commit and everything is ok, you should see something like the following:
+
+```
+$ git commit -m "FOO-x: Added README"
+GrumPHP detected a pre-commit command.
+GrumPHP is sniffing your code!
+Running task 1/4: Phpcs
+Running task 2/4: Phpcsfixer
+Running task 3/4: Phpunit
+Running task 4/4: Blacklist
+GrumPHP detected a commit-msg command.
+GrumPHP is sniffing your code!
+Running task 1/1: CommitMessage
+                   ____
+                _.' :  `._
+            .-.'`.  ;   .'`.-.
+   __      / : ___\ ;  /___ ; \      __
+ ,'_ ""--.:__;".-.";: :".-.":__;.--"" _`,
+ :' `.t""--.. '<@.`;_  ',@>` ..--""j.' `;
+      `:-.._J '-.-'L__ `-- ' L_..-;'
+        "-.__ ;  .-"  "-.  : __.-"
+            L ' /.------.\ ' J
+             "-.   "--"   .-"
+            __.l"-:_JL_;-";.__
+
+            Proud of you, Rick Astley would be.  Hmmmmmm.
+[master a116690] FOO-x: Added README
+ 1 file changed, 397 insertions(+)
+ create mode 100644 README.md
+```
