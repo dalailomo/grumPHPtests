@@ -67,7 +67,7 @@ So now we will go across all the options.
     git_dir: "."
     bin_dir: "./vendor/bin"
 ```
-These are pretty straighfoward, just to tell where the `.git/` and `vendor/` folders are located relatively to the configuration file.
+These are pretty straightforward, just to tell where the `.git/` and `vendor/` folders are located relatively to the configuration file.
 
 ```
     ascii:
