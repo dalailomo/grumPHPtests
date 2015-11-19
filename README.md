@@ -171,7 +171,7 @@ The commit message does not match the rule: FOO-*
             tab_width: 4
 ```
 
-These tasks works together somehow. If we try to commit something whcih violates the **PSR2** standards, we will see some issues when we try to commit those changes.
+These tasks works together somehow. If we try to commit something which violates the **PSR2** standards, we will see some issues when we try to commit those changes.
 
 Lets try to modify some code in the existing class `Jandemor`.
 
@@ -303,8 +303,6 @@ Legend: ?-unknown, I-invalid file syntax, file ignored, .-no changes, F-fixed, E
    1) /Users/psanchez/Sites/grumPHPtests/Lib/Jandemor.php (blankline_after_open_tag, operators_spaces, no_blank_lines_after_class_opening, extra_empty_lines, braces, eof_ending)
 Fixed all files in 0.233 seconds, 5.500 MB memory used
 ```
-
-> Note: I don't know yet the reason why we get this warning, but actually, the file is fixed.
 
 Then if you check the code, now will look like this: 
 
