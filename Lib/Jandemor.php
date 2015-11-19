@@ -4,12 +4,15 @@ namespace Kapusta;
 
 class Jandemor
 {
+    /**
+     * @var string
+     */
     protected $krander = 'Hello Default!';
 
     /**
      * Krander method to do krander things.
      *
-     * @param null $krander
+     * @param null|string $krander
      *
      * @return null|string
      */
