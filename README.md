@@ -80,6 +80,8 @@ These are used to show our funky Yoda ascii portrait.
 
 Here is where the magic happens:
 
+> Note that this acts on the staged changes in your local repository. You need to run the command `git add . -A` (or specify the file you want to add).
+
 #### Task `blacklist`
 
 ```
